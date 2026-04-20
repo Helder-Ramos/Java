@@ -1,6 +1,26 @@
+# --- JAVA (Deitel/NetBeans) ---
 *.class
 bin/
-.settings/
+build/
+dist/
+nbproject/private/
+*.jar
+*.war
+
+# --- PYTHON (Perkovic/VS Code) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# --- IDEs e Ferramentas ---
 .vscode/
+.settings/
 .project
 .classpath
+.factorypath
+.DS_Store
